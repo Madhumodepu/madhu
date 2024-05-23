@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/* .main{
+    background-image: url(/assets/uploads/images/back\ img.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+} */
+.logo{
+    width: 90px;
+    height: 90px;
+    border-radius: 80%;
+}
+.navbar-nav{
+    margin-left: 300px;
+}
+/* #nav{
+    background-color: rgb(174, 173, 171);
+} */
+.info{
+    margin-left: 8%;
+    margin-top: 100px;
+    width: 800px;
+    height: 500px;
+    font-family: sans-serif;
+}
+.info h1{
+    font-size: 30px;
+}
+.info1{
+    font-size: 17px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.info span{
+    color: red;
+}
+.info a{
+    background-color: black;
+    text-decoration: none;
+    display: hover none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+.info a:hover{
+    background-color: aqua;
+    color: black;
+}
+.img2{
+    width: 300px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 70px;
+    border-radius: 50px;
+    /* transition: left 2s ease;
+    position: relative;
+    animation:mymove 5s infinite ; */
+}
+/* div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+  } */
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 100px;}
+}
+.img3{
+    width: 1500px;
+    
+    opacity: 0.4;
+}
+.abt{
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.abt h2{
+    color: rgb(245, 13, 28);
+    font-family: sans-serif;
+}
+.abt h3{
+    color: rgb(1, 7, 19);
+}
+.abt a{
+    background-color: green;
+    width: 110px;
+    padding: 10px;
+    color: black;
+    border-radius: 0px;
+    text-decoration: none;
+}
+.abt a:hover{
+    background-color: blue;
+    color: white;
+}
+.tab{
+    width: 1200px;
+    margin-left: 150px;
+}
+.tab thead{
+    background-color: rgb(184, 199, 199);
+}
+.contactme{
+    margin-top: 100px;
+}
+.submit1{
+    padding: 15px 40px 15px 40px;
+    margin-left: 40px;
+    margin-top: 00px;
+    border-radius: 20px;
+    background-color: rgb(184, 59, 14);
+    border: none;
+}
+.submit1:hover{
+    background-color: rgb(87, 87, 166);
+    color: white;
+}
+.pro{
+    margin-top: 40px;
+    width: 1100px;
+    margin-left: 200px;
+    opacity: 0.8;
+}
+.ca1{
+    height:230px;
+}
+
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .img2{
+        margin-left: 200px;
+
+    }
+    .info{
+        width: 600px;
+    }
+    #navbarNav{
+        padding-left: 0px;
+        margin-left: -250px;
+    }
+    .img3{
+        width: 1000px;
+        height: 750px;
+    }
+    .tab{
+        width: 95%;
+        font-size: 14px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .pro{
+        width: 95%;
+        margin-left: 15px;
+    }
+    #skil{
+        margin-left: -50px;
+    }
+}
+
+
+@media screen and (min-width:426px) and (max-width:769px){
+    
+}
