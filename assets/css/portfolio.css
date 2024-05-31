@@ -181,6 +181,20 @@
         margin-left: 60px;
         width: 80%;
     }
+    .img3{
+        width: 900px;
+        height: 500px;
+      }
+      .abt{
+        margin-left: 0px;
+        margin-top: 10px;
+        width: 800px;
+    }
+    #but{
+        margin-right: 500px;
+        margin-left: 0px;
+        margin-top: 90px;
+    }
     
 }
 @media screen and (max-width:426px) {
@@ -188,6 +202,10 @@
     margin-left: 0px;
     margin-top: 400px;
   } 
+  .img3{
+    width: 500px;
+    height: 500px;
+  }
   .info1{
     width: 80%;
     margin-left: 30px;
@@ -207,6 +225,14 @@
     margin-right: 210px;
     margin-left: 60px;
     margin-top: 60px;
+}
+.abt{
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 400px;
+}
+a:hover{
+    display: block;
 }
 
 }
