@@ -16,7 +16,7 @@
     border-radius: 80%;
 }
 .navbar-nav{
-    margin-left: 300px;
+    margin-left: 80px;
 }
 /* #nav{
     background-color: rgb(174, 173, 171);
@@ -145,9 +145,9 @@
     .info{
         width: 600px;
     }
-    #navbarNav{
+    .navbar-Nav{
         padding-left: 0px;
-        margin-left: -250px;
+        margin-left: -100px;
     }
     .img3{
         width: 1000px;
